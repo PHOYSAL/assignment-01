@@ -3,7 +3,8 @@
 body {
     font-family: "Azeret Mono", monospace;
 }
- /* banner section style start here */
+
+/* banner section style start here */
 .banner-container .banner-info {
     max-width: 1440px;
     height: 100px;
@@ -99,4 +100,103 @@ body {
     text-align: center;
     cursor: pointer;
 }
+
 /* banner sction style end here */
+
+/* web-development section style start here */
+.web-dvlpmnt {
+    width: 1140px;
+    height: 1393px;
+    border: 2px solid green;
+    margin: 0 auto;
+    margin-top: 74px;
+}
+
+.web-description {
+    width: 952px;
+    height: 160px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+
+
+}
+
+.web-dvlpmnt .web-description h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.web-dvlpmnt .web-description p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.web-title-and-pic {
+    width: 952px;
+    height: 400px;
+    border: 2px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-title-and-pic .description {
+    width: 500px;
+    height: 319px;
+    border: 2px solid maroon;
+
+}
+
+.web-title-and-pic .description h1 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.web-title-and-pic .description p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.7;
+}
+
+.web-title-and-pic .description button {
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+}
+
+.web-title-and-pic .pic {
+    width: 259.56px;
+    height: 319px;
+    border: 2px solid red;
+    margin-left: 90px;
+}
