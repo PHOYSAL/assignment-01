@@ -105,9 +105,9 @@ body {
 
 /* web-development section style start here */
 .web-dvlpmnt {
-    width: 1140px;
+    
+    width: 1240px;
     height: 1393px;
-    border: 2px solid green;
     margin: 0 auto;
     margin-top: 74px;
 }
@@ -115,7 +115,6 @@ body {
 .web-description {
     width: 952px;
     height: 160px;
-    /* border: 2px solid red; */
     margin: 0 auto;
 
 
@@ -144,19 +143,17 @@ body {
 }
 
 .web-title-and-pic {
-    width: 952px;
+    width: 1000px;
     height: 400px;
-    border: 2px solid purple;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .web-title-and-pic .description {
-    width: 500px;
+    width: 60%;
     height: 319px;
-    border: 2px solid maroon;
-
 }
 
 .web-title-and-pic .description h1 {
@@ -181,10 +178,12 @@ body {
 }
 
 .web-title-and-pic .description button {
+    width: 150px;
+    height: 48px;
     padding: 12px 20px 12px 20px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     line-height: 23px;
     letter-spacing: 0%;
@@ -195,8 +194,10 @@ body {
 }
 
 .web-title-and-pic .pic {
-    width: 259.56px;
+    width: 30%;
     height: 319px;
-    border: 2px solid red;
-    margin-left: 90px;
+    margin-left: 70px;
+    margin-right: 70px;
+
 }
+
